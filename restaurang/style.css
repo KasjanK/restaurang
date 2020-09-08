@@ -1,0 +1,165 @@
+/* basic elements */ 
+
+html {
+	font-size: 16px;
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font: arial;
+	font-weight: 400;
+}
+
+body {
+	margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25;
+  background-color: #f2f2f1;
+}
+
+img {
+	vertical-align: middle;
+	border-style: none;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px
+}
+
+/* specific divs */
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 60px; 
+	z-index: 10000;
+}
+
+.nav {
+  margin-bottom: 0px;
+  padding-left: 0px;
+  list-style: none;
+}
+
+#nav-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+  padding: 0.5rem 0;
+  background-color: white;
+  text-align: center;
+  /*height: 70px;*/
+  top: 0px;
+}
+
+.navbar img {
+  float: left;
+}
+
+.navbar ul {
+  padding-top: 14px;
+  margin: 0px;
+  text-align: center;
+  display: table;
+  vertical-align: top;
+}
+
+.navbar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: table-cell;
+}
+
+.navbar li a {
+  color: black;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 30px;
+  opacity: 0.7;
+}
+
+.logo {
+  float: left;
+}
+
+#menu {
+  float: right;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.meny-titel {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 45px;
+  padding-bottom: 0px;
+}
+
+/* lista */
+.container {
+  width: 50%;
+  margin: 1em auto;
+  padding: .3em .6em;
+}
+
+.group-header {
+  float: right;
+  font-weight: 700;
+  width: 20%;
+  margin: .7em 0 1em 0;
+}
+
+h3 {
+  position: relative;
+  font-weight: 300;
+  margin: .7em 0 1em 0;
+}
+
+.pris {
+  float: right;
+  padding-right: 30px;
+}
+
+.divider-titel {
+  text-transform: uppercase;
+  font-size: 23px;
+  color: black;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  padding: 10px;
+}
+
+.about {
+  background-color: white;
+  padding: 10px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 750px) {
+  .about {
+    font-size: 15px;
+  }
+}
